@@ -102,6 +102,24 @@ void main() {
       expect(appGradle, contains('signingConfigs.getByName("release")'));
     });
 
+    test('Crashlytics has both halves: the plugin and the dependency', () {
+      // Three sibling apps shipped with only one of the two — a plugin with
+      // no dependency initialises nothing, and a dependency with no plugin
+      // never uploads a mapping file, so Java frames stay obfuscated.
+      expect(appGradle, contains('com.google.firebase.crashlytics'));
+      expect(appGradle, contains('mappingFileUploadEnabled = true'));
+      final pubspec = File('pubspec.yaml').readAsStringSync();
+      expect(pubspec, contains('firebase_crashlytics'));
+    });
+
+    test('google-services.json is present and registered for this package', () {
+      final json =
+          File('android/app/google-services.json').readAsStringSync();
+      expect(json, contains('"package_name": "com.tahatec.sim_card_info"'),
+          reason: 'google-services.json is for a different package');
+      expect(appGradle, contains('com.google.gms.google-services'));
+    });
+
     test('the manifest declares the permissions the channel needs', () {
       expect(manifest, contains('android.permission.READ_PHONE_STATE'));
       expect(manifest, contains('android.permission.READ_PHONE_NUMBERS'));

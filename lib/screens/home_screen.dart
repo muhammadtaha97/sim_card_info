@@ -10,6 +10,7 @@ import '../models/data_usage.dart';
 import '../models/signal_info.dart';
 import '../models/telephony_overview.dart';
 import '../services/ad_service.dart';
+import '../services/analytics_service.dart';
 import '../services/report_builder.dart';
 import '../services/settings_store.dart';
 import '../services/signal_history.dart';
@@ -114,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen>
   /// Manual refresh: reload, then maybe show the interstitial — after the
   /// action completed, never instead of it.
   Future<void> _refreshAction() async {
+    AnalyticsService.logRefresh();
     await _reload();
     if (_policy.shouldShow()) _interstitial.show();
   }
@@ -128,6 +130,7 @@ class _HomeScreenState extends State<HomeScreen>
 
   /// The cell towers opt-in: remember the choice, then ask for location.
   Future<void> _enableCellTowers() async {
+    AnalyticsService.logCellTowersEnabled();
     await widget.settings.setCellTowersEnabled(true);
     await widget.settings.markLocationPermissionRequested();
     await _telephony.requestLocationPermission();
@@ -184,6 +187,7 @@ class _HomeScreenState extends State<HomeScreen>
       signals: _signals,
       appVersion: version,
     );
+    AnalyticsService.logReportShared('text');
     await SharePlus.instance.share(ShareParams(text: report));
     if (_policy.shouldShow()) _interstitial.show();
   }
@@ -204,6 +208,7 @@ class _HomeScreenState extends State<HomeScreen>
       usage: _dataUsage,
       appVersion: version,
     );
+    AnalyticsService.logReportShared('json');
     await SharePlus.instance.share(ShareParams(text: report));
     if (_policy.shouldShow()) _interstitial.show();
   }
@@ -265,8 +270,10 @@ class _HomeScreenState extends State<HomeScreen>
                     onEnableCellTowers: _enableCellTowers,
                     onOpenAppSettings: () => _telephony.openAppSettings(),
                     dataUsage: _dataUsage,
-                    onGrantUsageAccess: () =>
-                        _telephony.openUsageAccessSettings(),
+                    onGrantUsageAccess: () {
+                      AnalyticsService.logUsageAccessOpened();
+                      _telephony.openUsageAccessSettings();
+                    },
                   )
                 : _scrollable(gate),
           ),
@@ -316,6 +323,9 @@ class _HomeScreenState extends State<HomeScreen>
           NavigationBar(
             selectedIndex: _tab,
             onDestinationSelected: (index) {
+              AnalyticsService.logTabSelected(
+                const ['sims', 'network', 'device', 'settings'][index],
+              );
               setState(() => _tab = index);
               _syncSignalPolling();
             },

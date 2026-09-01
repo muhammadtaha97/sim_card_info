@@ -3,6 +3,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../l10n/generated/app_localizations.dart';
+import '../services/analytics_service.dart';
 import '../services/consent_service.dart';
 import '../services/settings_store.dart';
 import '../utils/language_names.dart';
@@ -59,6 +60,7 @@ class SettingsTab extends StatelessWidget {
     );
     if (choice == null) return;
     final code = choice == system ? null : choice;
+    AnalyticsService.logLanguageChanged(code ?? 'system');
     await settings.setLocaleOverride(code == null ? null : Locale(code));
     onLocaleChanged?.call(code);
   }
@@ -120,8 +122,12 @@ class SettingsTab extends StatelessWidget {
                           ),
                         ],
                         selected: {settings.themeMode},
-                        onSelectionChanged: (selection) =>
-                            settings.setThemeMode(selection.first),
+                        onSelectionChanged: (selection) {
+                          AnalyticsService.logThemeChanged(
+                            selection.first.name,
+                          );
+                          settings.setThemeMode(selection.first);
+                        },
                       ),
                     ),
                     const Divider(indent: 16, endIndent: 16),

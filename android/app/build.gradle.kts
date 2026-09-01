@@ -1,9 +1,15 @@
+import com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsExtension
 import java.util.Properties
 
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+    // Both halves of Crashlytics on purpose: the google-services plugin wires
+    // the dependency's config, and the crashlytics plugin uploads mapping.txt.
+    // Three sibling apps shipped with only one of the two.
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 // Release signing credentials live in android/key.properties, which is not
@@ -64,6 +70,11 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            // Without the mapping upload, every obfuscated Java frame in a
+            // Crashlytics report stays unreadable.
+            configure<CrashlyticsExtension> {
+                mappingFileUploadEnabled = true
+            }
         }
         debug {
             isMinifyEnabled = false

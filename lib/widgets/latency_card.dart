@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../l10n/generated/app_localizations.dart';
+import '../services/analytics_service.dart';
 import '../services/latency_service.dart';
 import '../utils/localized_labels.dart';
 import 'info_row.dart';
@@ -23,6 +24,7 @@ class _LatencyCardState extends State<LatencyCard> {
   bool _running = false;
 
   Future<void> _run() async {
+    AnalyticsService.logLatencyTest();
     setState(() => _running = true);
     final results = await _service.run();
     if (!mounted) return;

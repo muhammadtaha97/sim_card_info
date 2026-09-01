@@ -2,7 +2,7 @@ name: sim_card_info
 description: "SIM Card Info — carrier, network, signal and device details for every SIM slot."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: ^3.13.0
@@ -19,9 +19,15 @@ dependencies:
   share_plus: ^13.3.0
   package_info_plus: ^10.2.1
 
+  # Firebase: analytics and crash reporting only — no accounts, no uploads of
+  # anything the app displays.
+  firebase_core: ^4.13.0
+  firebase_analytics: ^12.4.6
+  firebase_crashlytics: ^5.2.7
+
   # Monetisation. All SIM/network/device data is read on device through the
-  # app's own platform channel; ads and the UMP consent form are the only
-  # things that touch the network.
+  # app's own platform channel; ads, Firebase telemetry and the UMP consent
+  # form are the only things that touch the network.
   google_mobile_ads: ^9.1.0
   gma_mediation_meta: ^1.6.0
 
