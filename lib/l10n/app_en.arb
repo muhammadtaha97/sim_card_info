@@ -1,0 +1,222 @@
+{
+  "@@locale": "en",
+  "appTitle": "SIM Card Info",
+  "tabSims": "SIMs",
+  "tabNetwork": "Network",
+  "tabDevice": "Device",
+  "tabSettings": "Settings",
+  "titleSims": "SIM Cards",
+  "tooltipShareReport": "Share report",
+  "tooltipRefresh": "Refresh",
+  "gateTitle": "Phone permission needed",
+  "gateBody": "Android protects SIM and network details behind the Phone permission. Everything is read on your device and never leaves it.",
+  "grantPermission": "Grant permission",
+  "openAppSettings": "Open app settings",
+  "gatePermanent": "Permission was denied permanently, so it can only be enabled from the app settings screen.",
+  "noSimsTitle": "No active SIM cards",
+  "noSimsBody": "No SIM or eSIM is active on this device. Insert a SIM or enable an eSIM, then pull to refresh.",
+  "sectionSubscription": "SUBSCRIPTION",
+  "sectionRoles": "ROLES",
+  "sectionCellular": "CELLULAR",
+  "sectionServingCell": "SERVING CELL",
+  "sectionNeighbours": "NEIGHBOURING CELLS",
+  "sectionCellTowers": "CELL TOWERS",
+  "sectionDataUsage": "DATA USAGE",
+  "sectionActiveConnection": "ACTIVE CONNECTION",
+  "sectionIpAddresses": "IP ADDRESSES",
+  "sectionLatency": "LATENCY",
+  "sectionDevice": "DEVICE",
+  "sectionSimCapabilities": "SIM CAPABILITIES",
+  "sectionCalling": "CALLING & MESSAGING",
+  "sectionSystemSettings": "SYSTEM SETTINGS",
+  "sectionAppearance": "APPEARANCE",
+  "labelLanguage": "Language",
+  "systemDefault": "System default",
+  "labelCarrier": "Carrier",
+  "labelLabel": "Label",
+  "labelPhoneNumber": "Phone number",
+  "labelCountry": "Country",
+  "labelMccMnc": "MCC-MNC (PLMN)",
+  "labelCarrierId": "Carrier id",
+  "labelSpecificCarrier": "Specific carrier",
+  "labelSimState": "SIM state",
+  "labelSimType": "SIM type",
+  "labelSlot": "Slot",
+  "labelPort": "Port",
+  "labelSubscriptionId": "Subscription id",
+  "labelOpportunistic": "Opportunistic",
+  "labelMobileData": "Mobile data",
+  "chipData": "Data",
+  "labelCalls": "Calls",
+  "labelSms": "SMS",
+  "labelNetworkType": "Network type",
+  "labelVoiceNetwork": "Voice network",
+  "labelOperator": "Operator",
+  "labelOperatorCode": "Operator code",
+  "labelNetworkCountry": "Network country",
+  "labelRoaming": "Roaming",
+  "labelDataEnabled": "Data enabled",
+  "labelDataActivity": "Data activity",
+  "labelPhoneType": "Phone type",
+  "labelSignal": "Signal",
+  "labelStatus": "Status",
+  "labelConnection": "Connection",
+  "labelInternetAccess": "Internet access",
+  "labelMetered": "Metered",
+  "labelLinkDown": "Link down speed",
+  "labelLinkUp": "Link up speed",
+  "labelInterface": "Interface",
+  "labelDnsServer": "DNS server",
+  "labelPrivateDns": "Private DNS",
+  "labelModel": "Model",
+  "labelDeviceCodename": "Device codename",
+  "labelAndroidVersion": "Android version",
+  "labelRadioVersion": "Radio (IMEI SV)",
+  "labelTelephonyHardware": "Telephony hardware",
+  "labelSimCardPresent": "SIM card present",
+  "labelEsimSupported": "eSIM supported",
+  "labelActiveModems": "Active modems",
+  "labelSupportedModems": "Supported modems",
+  "labelMaxActiveSims": "Max active SIMs",
+  "labelDualSim": "Dual SIM",
+  "labelVoiceCapable": "Voice capable",
+  "labelSmsCapable": "SMS capable",
+  "labelVoiceAndData": "Voice + data at once",
+  "yes": "Yes",
+  "no": "No",
+  "unavailable": "Unavailable",
+  "unknown": "Unknown",
+  "physicalSim": "Physical SIM",
+  "esimEmbedded": "eSIM (embedded)",
+  "defaultSim": "Default SIM",
+  "notDefault": "Not default",
+  "validated": "Validated",
+  "notValidated": "Not validated",
+  "off": "Off",
+  "noActiveNetwork": "No active network",
+  "noActiveSim": "No active SIM to measure",
+  "noCellReported": "No cell reported yet",
+  "slotN": "Slot {n}",
+  "@slotN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "simN": "SIM {n}",
+  "@simN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "copied": "{label} copied",
+  "@copied": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "qualityExcellent": "Excellent",
+  "qualityGood": "Good",
+  "qualityFair": "Fair",
+  "qualityPoor": "Poor",
+  "qualityVeryPoor": "Very poor",
+  "signalNone": "None or unknown",
+  "simStateReady": "Ready",
+  "simStateAbsent": "Absent",
+  "simStatePin": "PIN required",
+  "simStatePuk": "PUK required",
+  "simStateNetworkLocked": "Network locked",
+  "simStateNotReady": "Not ready",
+  "simStateDisabled": "Permanently disabled",
+  "simStateIoError": "Card I/O error",
+  "simStateRestricted": "Card restricted",
+  "dataConnected": "Connected",
+  "dataDisconnected": "Disconnected",
+  "dataConnecting": "Connecting",
+  "dataSuspended": "Suspended",
+  "dataDisconnecting": "Disconnecting",
+  "activityIdle": "Idle",
+  "activityReceiving": "Receiving",
+  "activitySending": "Sending",
+  "activityBoth": "Sending and receiving",
+  "activityDormant": "Dormant",
+  "cellTowersExplainer": "See the tower your phone is connected to — Cell ID, area code, PCI, frequency channel and bands — plus neighbouring towers. Android counts a cell id as location data, so this needs the location permission. It is used for nothing else and nothing leaves your device.",
+  "showCellTowers": "Show cell towers",
+  "locationPermanent": "Location was denied permanently, so it can only be enabled from the app settings screen.",
+  "dataUsageExplainer": "See how much mobile data and Wi-Fi this device has used today and this month. Android keeps these numbers behind the Usage Access setting — tap below, allow SIM Card Info in the list, and come back.",
+  "grantUsageAccess": "Grant usage access",
+  "mobileToday": "Mobile today",
+  "mobileMonth": "Mobile this month",
+  "wifiToday": "Wi-Fi today",
+  "wifiMonth": "Wi-Fi this month",
+  "usageDisclaimer": "Mobile is all SIMs combined — Android does not let apps split usage per SIM.",
+  "latencyExplainer": "Measures the round trip to Cloudflare, Google DNS and google.com over the current connection.",
+  "runTest": "Run test",
+  "runAgain": "Run again",
+  "unreachable": "Unreachable",
+  "shortcutMobile": "Mobile network settings",
+  "shortcutDataUsage": "Data usage",
+  "shortcutWifi": "Wi-Fi settings",
+  "shortcutAirplane": "Airplane mode",
+  "themeLight": "Light",
+  "themeSystem": "System",
+  "themeDark": "Dark",
+  "shareFullReport": "Share full report",
+  "shareFullReportSubtitle": "SIM, network and device details as text",
+  "shareJson": "Share report as JSON",
+  "shareJsonSubtitle": "Machine-readable, for tools and scripts",
+  "shareApp": "Share this app",
+  "shareAppText": "SIM Card Info — carrier, signal and network details for every SIM. {url}",
+  "@shareAppText": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyOptions": "Privacy options",
+  "privacyOptionsSubtitle": "Change your ads consent choice",
+  "privacyOptionsFailed": "Could not open privacy options: {message}",
+  "@privacyOptionsFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutVersion": "Version {version} · by Tahatec",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutBy": "by Tahatec",
+  "privacyNote": "All SIM, network and device details are read directly from Android on your device and are never uploaded anywhere by this app.",
+  "sparklineCaption": "{dbm} dBm now · last {window}",
+  "@sparklineCaption": {
+    "placeholders": {
+      "dbm": {
+        "type": "int"
+      },
+      "window": {
+        "type": "String"
+      }
+    }
+  },
+  "windowMinute": "minute",
+  "windowMinutes": "{n} min",
+  "@windowMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  }
+}

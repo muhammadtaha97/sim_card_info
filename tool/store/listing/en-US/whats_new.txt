@@ -1,0 +1,7 @@
+First release 🎉
+• Details for every SIM and eSIM — carrier, number, PLMN, slot, roles
+• Live signal meter with history chart
+• Optional cell tower details and data usage
+• Latency test, IP addresses and DNS info
+• Home screen widget
+• Light & dark themes, 15 languages

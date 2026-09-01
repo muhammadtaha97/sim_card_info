@@ -1,0 +1,41 @@
+Everything about your SIM cards, network and signal — in one clean, fast app.
+
+SIM Card Info reads the details Android hides behind menus and shows them in one place: which carrier each SIM uses, how strong your signal really is, what network you are on, and how much data you have used.
+
+■ SIM CARDS
+• One card for every SIM and eSIM, styled like the real thing
+• Carrier, phone number, country, MCC-MNC (PLMN), carrier ID
+• SIM state, slot and port, physical SIM or eSIM
+• See which SIM handles mobile data, calls and SMS
+
+■ LIVE SIGNAL
+• Signal strength in dBm and ASU, refreshed every 3 seconds
+• Live chart of the last minutes — walk around and find the strong spots
+• Network type and generation: 2G, 3G, 4G LTE, 5G NR
+• Roaming, mobile data state and voice network
+
+■ CELL TOWERS (optional)
+• The tower you are connected to: Cell ID, TAC/LAC, PCI
+• Frequency channel (EARFCN/NRARFCN), band and bandwidth
+• RSRP, RSRQ, SINR, timing advance, plus neighbouring cells
+• Uses the location permission only if you switch this section on
+
+■ DATA USAGE (optional)
+• Mobile and Wi-Fi usage, today and this month
+• Enabled through Android's Usage Access setting — only if you opt in
+
+■ CONNECTION & TOOLS
+• Active connection: link speed, DNS servers, private DNS, IP addresses
+• One-tap latency test to Cloudflare, Google DNS and google.com
+• Shortcuts to mobile network, data usage, Wi-Fi and airplane settings
+
+■ MORE
+• Home screen widget: carrier, network and signal for each SIM
+• Tap any value to copy it; share a full report as text or JSON
+• Light, dark and system themes · 15 languages
+• Full dual SIM and eSIM support
+
+PRIVACY
+Everything is read directly from Android on your device. The app has no accounts and uploads nothing anywhere.
+
+Note: Android does not allow apps to show data usage per individual SIM, and phone numbers appear only when the carrier stores them on the SIM.

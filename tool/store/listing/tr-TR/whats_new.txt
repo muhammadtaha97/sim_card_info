@@ -1,0 +1,7 @@
+İlk sürüm 🎉
+• Her SIM ve eSIM'in ayrıntıları — operatör, numara, PLMN, yuva
+• Geçmiş grafikli canlı sinyal ölçer
+• İsteğe bağlı baz istasyonu ve veri kullanımı
+• Gecikme testi, IP adresleri ve DNS bilgisi
+• Ana ekran widget'ı
+• Açık ve koyu tema, 15 dil

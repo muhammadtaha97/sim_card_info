@@ -1,0 +1,7 @@
+Erste Version 🎉
+• Details zu jeder SIM und eSIM — Anbieter, Nummer, PLMN, Steckplatz
+• Live-Signalmesser mit Verlaufsdiagramm
+• Optionale Funkmast-Details und Datenverbrauch
+• Latenztest, IP-Adressen und DNS-Infos
+• Startbildschirm-Widget
+• Helles & dunkles Design, 15 Sprachen

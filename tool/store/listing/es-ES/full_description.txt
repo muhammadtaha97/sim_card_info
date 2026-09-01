@@ -1,0 +1,39 @@
+Todo sobre tus tarjetas SIM, tu red y tu señal — en una app rápida y ordenada.
+
+Info SIM muestra en un solo lugar los detalles que Android esconde entre menús: el operador de cada SIM, la intensidad real de la señal, la red en la que estás y cuántos datos has usado.
+
+■ TARJETAS SIM
+• Una tarjeta por cada SIM y eSIM, con el aspecto de la real
+• Operador, número, país, MCC-MNC (PLMN), ID del operador
+• Estado de la SIM, ranura y puerto, SIM física o eSIM
+• Ve qué SIM lleva los datos, las llamadas y los SMS
+
+■ SEÑAL EN VIVO
+• Intensidad en dBm y ASU, actualizada cada 3 segundos
+• Gráfica en vivo de los últimos minutos — encuentra las zonas con mejor cobertura
+• Tipo de red y generación: 2G, 3G, 4G LTE, 5G NR
+• Itinerancia, estado de los datos y red de voz
+
+■ TORRES DE TELEFONÍA (opcional)
+• La torre a la que estás conectado: Cell ID, TAC/LAC, PCI
+• Canal de frecuencia (EARFCN/NRARFCN), banda y ancho de banda
+• RSRP, RSRQ, SINR, timing advance y celdas vecinas
+• Usa el permiso de ubicación solo si activas esta sección
+
+■ USO DE DATOS (opcional)
+• Datos móviles y Wi-Fi, hoy y este mes
+• Se activa con el acceso al uso de Android — solo si tú quieres
+
+■ CONEXIÓN Y HERRAMIENTAS
+• Conexión activa: velocidad, servidores DNS, DNS privado, direcciones IP
+• Prueba de latencia con un toque
+• Atajos a los ajustes de red móvil, datos, Wi-Fi y modo avión
+
+■ MÁS
+• Widget de pantalla de inicio: operador, red y señal por SIM
+• Toca cualquier valor para copiarlo; comparte el informe como texto o JSON
+• Temas claro, oscuro y del sistema · 15 idiomas
+• Compatibilidad total con SIM dual y eSIM
+
+PRIVACIDAD
+Todo se lee directamente de Android en tu dispositivo. Sin cuentas; nada se sube a ninguna parte.

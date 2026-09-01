@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Card Info</string>
+    <string name="widget_description">Carrier, network type and signal for each SIM.</string>
+    <string name="widget_no_data">Open the app to grant the Phone permission.</string>
+</resources>

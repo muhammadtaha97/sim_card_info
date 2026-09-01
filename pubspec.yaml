@@ -1,0 +1,35 @@
+name: sim_card_info
+description: "SIM Card Info — carrier, network, signal and device details for every SIM slot."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.9
+  intl: ^0.20.3
+  shared_preferences: ^2.5.5
+  share_plus: ^13.3.0
+  package_info_plus: ^10.2.1
+
+  # Monetisation. All SIM/network/device data is read on device through the
+  # app's own platform channel; ads and the UMP consent form are the only
+  # things that touch the network.
+  google_mobile_ads: ^9.1.0
+  gma_mediation_meta: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

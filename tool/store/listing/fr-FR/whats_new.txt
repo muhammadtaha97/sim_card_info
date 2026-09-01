@@ -1,0 +1,7 @@
+Première version 🎉
+• Détails de chaque SIM et eSIM — opérateur, numéro, PLMN, emplacement
+• Mesure du signal en direct avec graphique
+• Antennes-relais et consommation en option
+• Test de latence, adresses IP et DNS
+• Widget d'écran d'accueil
+• Thèmes clair et sombre, 15 langues

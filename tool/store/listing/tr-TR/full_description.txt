@@ -1,0 +1,39 @@
+SIM kartlarınız, ağınız ve sinyaliniz hakkında her şey — hızlı ve derli toplu tek bir uygulamada.
+
+SIM Kart Bilgisi, Android'in menülerin arkasına sakladığı ayrıntıları tek yerde gösterir: her SIM'in operatörü, sinyalin gerçek gücü, bağlı olduğunuz ağ ve kullandığınız veri miktarı.
+
+■ SIM KARTLAR
+• Her SIM ve eSIM için gerçeğine benzeyen bir kart
+• Operatör, telefon numarası, ülke, MCC-MNC (PLMN), operatör kimliği
+• SIM durumu, yuva ve bağlantı noktası, fiziksel SIM veya eSIM
+• Veri, arama ve SMS'i hangi SIM'in üstlendiğini görün
+
+■ CANLI SİNYAL
+• dBm ve ASU cinsinden sinyal gücü, 3 saniyede bir yenilenir
+• Son dakikaların canlı grafiği — dolaşın, çekimin iyi olduğu yerleri bulun
+• Ağ türü ve nesli: 2G, 3G, 4G LTE, 5G NR
+• Dolaşım, mobil veri durumu ve ses ağı
+
+■ BAZ İSTASYONLARI (isteğe bağlı)
+• Bağlı olduğunuz istasyon: Hücre kimliği, TAC/LAC, PCI
+• Frekans kanalı (EARFCN/NRARFCN), bant ve bant genişliği
+• RSRP, RSRQ, SINR ve komşu hücreler
+• Konum izni yalnızca bu bölümü açarsanız kullanılır
+
+■ VERİ KULLANIMI (isteğe bağlı)
+• Bugün ve bu ay için mobil ve Wi-Fi kullanımı
+• Android'in kullanım erişimi ayarıyla — yalnızca siz isterseniz
+
+■ BAĞLANTI VE ARAÇLAR
+• Etkin bağlantı: hız, DNS sunucuları, özel DNS, IP adresleri
+• Tek dokunuşla gecikme testi
+• Mobil ağ, veri, Wi-Fi ve uçak modu ayarlarına kısayollar
+
+■ DAHASI
+• Ana ekran widget'ı: her SIM için operatör, ağ ve sinyal
+• Herhangi bir değere dokunup kopyalayın; raporu metin veya JSON olarak paylaşın
+• Açık, koyu ve sistem teması · 15 dil
+• Tam çift SIM ve eSIM desteği
+
+GİZLİLİK
+Her şey cihazınızdaki Android'den doğrudan okunur. Hesap yok; hiçbir şey hiçbir yere yüklenmez.

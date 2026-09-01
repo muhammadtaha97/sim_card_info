@@ -1,0 +1,102 @@
+PRIVACY POLICY — SIM CARD INFO
+Effective date: September 1, 2026
+App: SIM Card Info (com.tahatec.sim_card_info)
+Developer: Tahatec
+Contact: tahatec@yahoo.com
+
+SUMMARY
+
+SIM Card Info reads SIM, network and device details directly from Android on
+your device and displays them to you. The app has no accounts, no sign-in,
+and no servers of its own: nothing you see in the app is uploaded, stored or
+shared by us. The only network activity in the app comes from advertising
+(described below) and from the optional latency test you can run yourself.
+
+1. INFORMATION THE APP READS ON YOUR DEVICE
+
+With your permission, the app reads the following from Android and shows it
+on screen. This information is processed on your device only and is never
+transmitted to us or to anyone else by the app:
+
+- SIM and subscription details: carrier name, phone number (where your
+  carrier stores it on the SIM), country, MCC-MNC (PLMN), carrier ID, SIM
+  state, slot and port, physical SIM or eSIM, and which SIM is the default
+  for data, calls and SMS. (Phone permission: READ_PHONE_STATE and
+  READ_PHONE_NUMBERS.)
+- Network and signal details: signal strength, network type and generation,
+  operator, roaming and mobile data state.
+- Cell tower details (optional): identifiers of the serving and neighbouring
+  cell towers (Cell ID, TAC/LAC, PCI, frequency channel, bands). Android
+  treats cell identifiers as location data, so this section works only if
+  you grant the location permission when you enable it. The app does not
+  compute, store or share your location; the identifiers are only displayed
+  to you. If you never enable this section, the location permission is never
+  requested.
+- Data usage (optional): your device's total mobile and Wi-Fi usage for the
+  current day and month, read through Android's Usage Access setting, and
+  only if you enable it there.
+- Connection details: link speed, DNS servers, IP addresses and interface
+  names of your current connection.
+
+You can copy or share any of this information yourself (for example as a
+text or JSON report). Sharing is always started by you and goes through the
+apps you choose; we never receive a copy.
+
+2. INFORMATION THE APP STORES
+
+The app stores only your preferences (theme, language, and whether you
+enabled the optional sections) locally on your device. Uninstalling the app
+deletes them. We have no servers and keep no data about you.
+
+3. ADVERTISING
+
+The app shows ads served by Google AdMob, which may also use certified
+mediation partners such as Meta Audience Network. When requesting and
+showing ads, these partners may collect and process data on their own
+behalf, such as your advertising ID, IP address, coarse location derived
+from it, and device and diagnostic information. This is standard for
+ad-supported apps and is governed by the partners' own policies:
+
+- Google: https://policies.google.com/technologies/partner-sites
+- Meta Audience Network: https://www.facebook.com/about/privacy
+
+In the European Economic Area, the United Kingdom and other regulated
+regions, the app shows a consent form (Google's User Messaging Platform)
+before any ad request is made, and you can change your choice at any time
+under Settings → Privacy options inside the app. You can also reset your
+advertising ID or opt out of ad personalisation in your device's Google
+settings.
+
+4. PERMISSIONS AT A GLANCE
+
+- Phone (READ_PHONE_STATE, READ_PHONE_NUMBERS): required for the SIM and
+  network details that are the purpose of the app.
+- Location (ACCESS_FINE_LOCATION): requested only if you enable the optional
+  cell towers section, because Android gates cell identifiers behind it.
+- Usage access (PACKAGE_USAGE_STATS): granted by you in system settings,
+  only if you enable the optional data usage section.
+- Internet and network state: used by the advertising described above, by
+  the consent form, and by the latency test you can run manually. The app
+  itself sends none of your SIM, network or device details anywhere.
+
+5. CHILDREN
+
+The app is a technical utility, is not directed at children under 13, and we
+knowingly collect no personal information from anyone, including children.
+
+6. DATA DELETION
+
+We hold no data about you, so there is nothing for us to delete: uninstalling
+the app removes everything it stored on your device. For data collected by
+advertising partners, use the controls in section 3 or contact those
+partners directly.
+
+7. CHANGES TO THIS POLICY
+
+If this policy changes, the updated version will be published at the same
+address with a new effective date. Material changes will be reflected in the
+app's store listing.
+
+8. CONTACT
+
+Questions about this policy or the app: tahatec@yahoo.com

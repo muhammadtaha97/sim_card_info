@@ -1,0 +1,39 @@
+Alles über deine SIM-Karten, dein Netz und dein Signal — in einer schnellen, aufgeräumten App.
+
+SIM-Karten-Info zeigt die Details, die Android hinter Menüs versteckt, an einem Ort: welchen Anbieter jede SIM nutzt, wie stark dein Signal wirklich ist, in welchem Netz du bist und wie viel Daten du verbraucht hast.
+
+■ SIM-KARTEN
+• Eine Karte für jede SIM und eSIM, gestaltet wie das Original
+• Anbieter, Telefonnummer, Land, MCC-MNC (PLMN), Anbieter-ID
+• SIM-Status, Steckplatz und Port, physische SIM oder eSIM
+• Sieh, welche SIM Daten, Anrufe und SMS übernimmt
+
+■ LIVE-SIGNAL
+• Signalstärke in dBm und ASU, alle 3 Sekunden aktualisiert
+• Live-Diagramm der letzten Minuten — finde die starken Ecken
+• Netztyp und Generation: 2G, 3G, 4G LTE, 5G NR
+• Roaming, Datenstatus und Sprachnetz
+
+■ FUNKMASTEN (optional)
+• Der Mast, mit dem du verbunden bist: Zell-ID, TAC/LAC, PCI
+• Frequenzkanal (EARFCN/NRARFCN), Band und Bandbreite
+• RSRP, RSRQ, SINR, Timing Advance und Nachbarzellen
+• Nutzt die Standortberechtigung nur, wenn du diesen Bereich aktivierst
+
+■ DATENVERBRAUCH (optional)
+• Mobil- und WLAN-Verbrauch, heute und diesen Monat
+• Aktivierung über Androids Nutzungszugriff — nur wenn du zustimmst
+
+■ VERBINDUNG & TOOLS
+• Aktive Verbindung: Geschwindigkeit, DNS-Server, privates DNS, IP-Adressen
+• Latenztest zu Cloudflare, Google DNS und google.com mit einem Tipp
+• Schnellzugriffe auf Mobilfunk-, Daten-, WLAN- und Flugmodus-Einstellungen
+
+■ MEHR
+• Widget für den Startbildschirm: Anbieter, Netz und Signal je SIM
+• Jeden Wert antippen und kopieren; Bericht als Text oder JSON teilen
+• Helles, dunkles und System-Design · 15 Sprachen
+• Volle Dual-SIM- und eSIM-Unterstützung
+
+DATENSCHUTZ
+Alles wird direkt von Android auf deinem Gerät gelesen. Keine Konten, nichts wird irgendwohin hochgeladen.
